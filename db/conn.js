@@ -16,7 +16,7 @@ const db = await mongoose.connect(MONGODB_URI, {
 })
 
 connection.isConnected = db.connections[0].readyState;
-console.log("hablo", connection.isConnected);
+console.log("habloo", connection.isConnected);
 
 
 }
